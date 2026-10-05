@@ -18,11 +18,15 @@ public class MinimumSizeSubarraySum2 {
                 left++;
             }
         }
+        if(minLength==Integer.MAX_VALUE)
+        {
+            return 0;
+        }
         return minLength;
     }
 }
 
 /*
- * MINIMUM SIZE SUB ARRAY SUM - SLIDING WINDOW - APPROACH 2
+ * MINIMUM SIZE SUB ARRAY SUM - LEETCODE 209 - SLIDING WINDOW - APPROACH 2
  *  TIME COMPLEXITY = O(n)
  *  SPACE COMPLEXITY = O(1)*/
