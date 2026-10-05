@@ -22,6 +22,16 @@ public class MinimumSizeSubarraySum1 {
                 }
             }
         }
+        if(min_Length==Integer.MAX_VALUE)
+        {
+            return 0;
+        }
         return min_Length;
     }
 }
+
+
+/*
+ * MINIMUM SIZE SUB ARRAY SUM - LEETCODE 209 - BRUTE FORCE - APPROACH 1
+ *  TIME COMPLEXITY = O(n^2)
+ *  SPACE COMPLEXITY = O(1)*/
