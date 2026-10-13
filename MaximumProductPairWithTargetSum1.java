@@ -4,9 +4,9 @@ public class MaximumProductPairWithTargetSum1 {
     public static void main(String[] args) {
     int[] nums ={1,2,3,4};
     int target = 5;
-        System.out.println(Arrays.toString(maxProductPair(nums,target)));
+        System.out.println(Arrays.toString(maxProductPairr(nums,target)));
     }
-    static int[] maxProductPair(int[] nums,int target)
+    static int[] maxProductPairr(int[] nums,int target)
     {
         int[] res = {-1,-1};
         int maxProduct=Integer.MIN_VALUE;
@@ -30,6 +30,7 @@ public class MaximumProductPairWithTargetSum1 {
         return res;
     }
 }
+
 
 
 /* MAXIMUM PRODUCT PAIR WITH TARGET SUM - BRUTE FORCE - LEETCODE 4074{RETURN 1D ARRAY}
