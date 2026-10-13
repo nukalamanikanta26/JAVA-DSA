@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MaximumProductPairWithTargetSum {
+public class MaximumProductPairWithTargetSum1 {
     public static void main(String[] args) {
     int[] nums ={1,2,3,4};
     int target = 5;
@@ -30,3 +30,8 @@ public class MaximumProductPairWithTargetSum {
         return res;
     }
 }
+
+
+/* MAXIMUM PRODUCT PAIR WITH TARGET SUM - BRUTE FORCE - LEETCODE 4074{RETURN 1D ARRAY}
+ *  TIME COMPLEXITY = O(n^2)
+ *  SPACE COMPLEXITY = O(1) */
