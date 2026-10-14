@@ -38,3 +38,8 @@ public class SubArraySumEqualsPrefix {
         return false;
     }
 }
+
+/*
+ * SUB ARRAY SUM EQUALS K - SLIDING WINDOW - OPTIMISED
+ *  TIME COMPLEXITY = O(n)
+ *  SPACE COMPLEXITY = O(n)*/
